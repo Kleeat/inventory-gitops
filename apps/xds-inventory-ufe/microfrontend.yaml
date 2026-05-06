@@ -3,7 +3,7 @@ kind: MicroFrontend
 metadata:
   name: xds-inventory-ufe
 spec:
-  frontendClass: md-shell
+  frontendClass: md-shell # default obsiahnutý v základe polyfea md-shell
   service:
-    name: xds-inventory-ufe
-  modulePath: build/inventory-ufe.esm.js
+    name: xds-inventory-ufe # referencia na službu odkiaľ sa má načítať modul
+  modulePath: build/inventory-ufe.esm.js # cesta v rámci služby kde sa modul nachádza

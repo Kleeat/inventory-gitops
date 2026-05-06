@@ -12,6 +12,6 @@ resources:
 - cd.kustomization.yaml
 - install.kustomization.yaml
 - git-repository.yaml
-- xds-inventory-ufe.image-repository.yaml
-- xds-inventory-ufe.image-policy.yaml
+- inventory-ufe.image-repository.yaml
+- inventory-ufe.image-policy.yaml
 - image-update-automation.yaml
