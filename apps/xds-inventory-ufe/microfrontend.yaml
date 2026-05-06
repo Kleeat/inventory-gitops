@@ -1,0 +1,9 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: MicroFrontend
+metadata:
+  name: xds-inventory-ufe
+spec:
+  frontendClass: md-shell
+  service:
+    name: xds-inventory-ufe
+  modulePath: build/inventory-ufe.esm.js

@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: xds-inventory-ufe-content
+spec:
+  microFrontend: xds-inventory-ufe
+  element: xds-inventory-app
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?xds-inventory-app(/.*)?$"

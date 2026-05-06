@@ -1,0 +1,25 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: xds-inventory-ufe-link
+spec:
+  microFrontend: polyfea-md-shell
+  element: polyfea-md-app
+  attributes:
+    - name: headline
+      value: Ambulance Inventory xds
+    - name: short-headline
+      value: Inventory xds
+    - name: supporting-text
+      value: |
+        Spravuje inventár ambulancie - vybavenie, lokácie a servisné záznamy
+    - name: material-icon
+      value: medical_services
+    - name: href
+      value: ./xds-inventory-app
+  priority: 10
+  displayRules:
+    - anyOf:
+      - context-name: applications
+      - context-name: rail-content
+      - context-name: drawer-content
