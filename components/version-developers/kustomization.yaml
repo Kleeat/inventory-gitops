@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+
+images:
+- name: kleeat/inventory-ufe
+  newName: kleeat/inventory-ufe # {"$imagepolicy": "wac-hospital:inventory-ufe:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:inventory-ufe:tag"}
