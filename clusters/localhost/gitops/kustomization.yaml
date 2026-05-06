@@ -14,4 +14,6 @@ resources:
 - git-repository.yaml
 - inventory-ufe.image-repository.yaml
 - inventory-ufe.image-policy.yaml
+- inventory-webapi.image-repository.yaml
+- inventory-webapi.image-policy.yaml
 - image-update-automation.yaml

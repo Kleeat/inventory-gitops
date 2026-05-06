@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/xds-inventory-ufe
+- ../../../apps/xds-inventory-webapi
+
+patches:
+- path: patches/inventory-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/Kleeat/inventory-webapi//deployments/kustomize/components/mongodb
