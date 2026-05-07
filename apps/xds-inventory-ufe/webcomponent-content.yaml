@@ -5,6 +5,9 @@ metadata:
 spec:
   microFrontend: xds-inventory-ufe
   element: xds-inventory-app
+  attributes:
+    - name: base-path
+      value: ./xds-inventory-app/
   displayRules:
     - allOf:
       - context-name: main-content
