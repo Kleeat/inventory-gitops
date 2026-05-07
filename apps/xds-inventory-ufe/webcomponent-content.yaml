@@ -8,6 +8,8 @@ spec:
   attributes:
     - name: base-path
       value: ./xds-inventory-app/
+    - name: api-base
+      value: /xds-api
   displayRules:
     - allOf:
       - context-name: main-content
