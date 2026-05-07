@@ -6,4 +6,4 @@ images:
   newTag: main.20260507.0236 # {"$imagepolicy": "wac-hospital:inventory-webapi:tag"}
 - name: kleeat/inventory-ufe
   newName: kleeat/inventory-ufe # {"$imagepolicy": "wac-hospital:inventory-ufe:name"}
-  newTag: main.20260507.0340 # {"$imagepolicy": "wac-hospital:inventory-ufe:tag"}
+  newTag: main.20260507.0206 # {"$imagepolicy": "wac-hospital:inventory-ufe:tag"}
