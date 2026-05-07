@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: xds-inventory # napr. <pfx>-ambulance-wl
+spec:
+  title: "Ambulance Inventory" # napr. "Zoznam čakajúcich <pfx>"
+  description: "Evidencia nemocničného vybavenia a servisných zásahov" # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Dmytro Dzhuha, Levente Szénási" # Zadajte mená autorov
+  azureLink: "https://kleeat-ambulance-chh3fqetbfbhd5dr.westeurope-01.azurewebsites.net/xds-inventory-app/"
+  frontendRepoUrl: "https://github.com/Kleeat/xds-inventory-ufe"
+  backendRepoUrl: "https://github.com/Kleeat/xds-inventory-webapi"
+  gitopsRepoUrl: "https://github.com/Kleeat/xds-inventory-gitops"

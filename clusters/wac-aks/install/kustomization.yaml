@@ -7,11 +7,13 @@ labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: xds-inventory
-  includeSelectors: true
-  includeTemplates: true
+    includeSelectors: true
+    includeTemplates: true
+    wac-fiit.github.io/project: xds-inventory
 
 resources:
 - ../../../apps/xds-inventory-ufe
+- ../../../apps/xds-inventory-webapi
 
 
 components:
