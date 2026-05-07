@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: kleeat/inventory-webapi
   newName: kleeat/inventory-webapi # {"$imagepolicy":  "wac-hospital:inventory-webapi:name"}
-  newTag: main.20260507.0405 # {"$imagepolicy": "wac-hospital:inventory-webapi:tag"}
+  newTag: main.20260507.1048 # {"$imagepolicy": "wac-hospital:inventory-webapi:tag"}
 - name: kleeat/inventory-ufe
   newName: kleeat/inventory-ufe # {"$imagepolicy": "wac-hospital:inventory-ufe:name"}
   newTag: main.20260507.0340 # {"$imagepolicy": "wac-hospital:inventory-ufe:tag"}
